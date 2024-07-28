@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Text Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .gallery-item {
+            margin-bottom: 2em;
+        }
+        .gallery-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .gallery-item h2 {
+            color: #333;
+        }
+        .gallery-item p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Image and Text Gallery</h1>
+    </div>
+    <div class="container">
+        <div class="gallery-item">
+            <h2>Title 1</h2>
+            <img src="image1.jpg" alt="Description of image 1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula purus ut quam bibendum, nec fermentum felis bibendum.</p>
+        </div>
+        <div class="gallery-item">
+            <h2>Title 2</h2>
+            <img src="image2.jpg" alt="Description of image 2">
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <!-- Add more gallery items as needed -->
+    </div>
+</body>
+</html>
